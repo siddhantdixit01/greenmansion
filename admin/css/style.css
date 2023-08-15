@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'nautilus_pompiliusregular';
+    src: url('../fonts/nautilus-webfont.woff2') format('woff2'),
+         url('../fonts/nautilus-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+			margin: 0px;
+			color: #686868;
+		    font-size: 14px;
+		    font-family: 'Roboto', sans-serif;
+		    line-height: 1.8;
+		    letter-spacing: 1.5px;
+		}
+		h1,h2,h3,h4,h5,h6{
+			color: #F04900;
+			font-family: 'nautilus_pompiliusregular'; 
+		}
+		a{ 
+			text-decoration: none;
+			color: white;
+		 }
+		.header{
+			width: 100%;
+			background-image: url("../../images/menu.jpg");
+		}
+		.header-img{
+			width: 20%;
+			float: left;
+			margin: 2px;
+			text-align: center;
+		}
+		.header-center{
+			float: left;
+			width: 60%;
+			text-align: center;
+			margin: 5px 0px 5px 30px;
+		}
+		.clear{clear: both;}
+		.sidebar{
+			width: 15%;
+			padding: 50px 0px;
+			float: left;
+			text-align: center;
+			background-color: #222222;
+			padding: 0px;
+		}
+		.sidebar span{
+			border-bottom: 2px solid white;
+			padding: 10px;
+			display: block;	
+		}
+		.sidebar ul, .sidebar li{
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		.sidebar li{
+			padding: 10px 0px;
+   			border-bottom: 2px solid white;
+		}
+		.container{ 
+			background-color: #f6f6f6;
+		}
+		.content{
+			width: 85%;
+			margin-top:20px; 
+			float: left;
+			text-align: center;
+		}
+		.welcome{
+			font-size: 30px;
+    		font-style: italic;
+    		font-weight: bold;
+		}
+		table,tr,th,td{
+			margin: 50px auto;
+			border: 2px solid black;
+		}
+		td,th{ padding: 20px; }
+		.login{
+			margin: 0px;
+			background-color: #f6f6f6;
+			text-align: center;
+			padding: 50px;
+		}
+		.insert{
+			display: none;
+			width: 50%;
+			margin: 0px auto;
+			border: 3px solid #f0f0f0;
+		}
